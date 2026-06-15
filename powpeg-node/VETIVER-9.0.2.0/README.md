@@ -1,7 +1,7 @@
 # powpeg-node VETIVER-9.0.2.0
 
 * Source: https://github.com/rsksmart/powpeg-node
-* Branch: `VETIVER-9.0.2.0`
+* Tag: `VETIVER-9.0.2.0`
 
 ## Build
 
