@@ -11,7 +11,7 @@ RUN gitrev=VETIVER-9.0.2.0 && \
     git fetch --depth 1 origin tag "$gitrev" && \
     git checkout "$gitrev"
 
-RUN gpg --keyserver https://secchannel.rsk.co/SUPPORT.asc --recv-keys A6DBEAC640C5A14B && \
+RUN gpg --keyserver https://secchannel.rsk.co/SUPPORT.asc --recv-keys 1DC9157991323D23FD37BAA7A6DBEAC640C5A14B && \
     gpg --verify --output SHA256SUMS SHA256SUMS.asc && \
     sha256sum --check SHA256SUMS && \
     ./configure.sh && \
